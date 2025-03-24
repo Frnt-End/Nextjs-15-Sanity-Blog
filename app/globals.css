@@ -103,7 +103,7 @@
   }
 
   .section_container {
-    @apply px-6 py-10 max-w-[90%] mx-auto;
+    @apply sm:px-1 px-6 py-10 max-w-[100%] mx-auto;
   }
 
   .card_grid {
