@@ -95,15 +95,15 @@
   }
 
   .inner-heading {
-    @apply !pb-0 !mt-5 !mb-0 w-full text-black sm:text-[60px] sm:leading-[80px] text-[36px] text-center my-0;
+    @apply !pb-0 !mt-5 !mb-0 w-full text-black sm:text-[60px] text-[66px] text-center my-0;
   }
 
   .inner-sub-heading {
-    @apply rounded-b-xl !font-[200] text-black font-paragraph !mt-0 pb-2 !pt-0 sm:text-[20px] text-[16px] px-6 text-center;
+    @apply font-semibold sm:font-normal text-black font-paragraph !mt-0 pb-2 !pt-0 sm:text-[20px] text-[24px] text-center;
   }
 
   .section_container {
-    @apply sm:px-1 px-6 py-10 max-w-[100%] mx-auto;
+    @apply sm:px-6 px-1 py-10 max-w-[100%] mx-auto;
   }
 
   .card_grid {
@@ -292,7 +292,7 @@
   }
 
   .article-date {
-    @apply !pt-0 !mt-0 text-left font-title font-normal text-[12px] tracking-[.05em];
+    @apply !pt-0 !mt-0 text-left font-title font-normal sm:text-[12px] text-[13px] tracking-[.05em];
   }
 
   .view-text {

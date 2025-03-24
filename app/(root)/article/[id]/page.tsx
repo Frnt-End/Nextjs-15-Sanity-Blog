@@ -23,7 +23,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
   return (
     <>
       <section className="section_container !pt-1 flex items-center justify-center flex-col">
-        <div className="w-[70%] space-y-5 mt-10 max-w-4xl mx-auto">
+        <div className="w-[90%] sm:w-[70%] space-y-5 mt-10 max-w-4xl mx-auto">
           <div className="flex justify-between items-center gap-5">
             <Link
               href={`/user/${post.author?._id}`}
@@ -67,7 +67,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
 
           {parsedContent ? (
             <article
-              className="prose max-w-4xl font-paragraph font-light"
+              className="prose text-[24px] sm:text-[16px] max-w-4xl font-paragraph font-light"
               dangerouslySetInnerHTML={{ __html: parsedContent }}
             />
           ) : (

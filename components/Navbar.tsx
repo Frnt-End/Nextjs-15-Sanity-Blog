@@ -8,13 +8,13 @@ const Navbar = async () => {
   const session = await auth();
 
   return (
-    <header className="bg-transparent px-10 w-full py-3 relative z-20 font-work-sans">
+    <header className="bg-transparent px-8 w-full py-3 sm:px-10 relative z-20">
       <nav className="flex justify-between items-center">
         <Link href="/">
           <Image src="/logo.png" alt="logo" width={40} height={40} />
         </Link>
 
-        <div className="flex items-center gap-5 text-black">
+        <div className="flex justify-between items-center gap-5 text-black">
           {session && session?.user ? (
             <>
               <Link href="/article/create">
