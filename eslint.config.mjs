@@ -11,6 +11,12 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "comma-dangle": ["error", "never"], // Disallow trailing commas
+      "@typescript-eslint/comma-dangle": ["error", "never"], // For TypeScript-specific cases
+    },
+  },
 ];
 
 export default eslintConfig;
