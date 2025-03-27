@@ -2,7 +2,7 @@
 
 ![Blog Preview](public/preview.jpg "Blog Preview")
 
-User can read articles or login with GitHub to create articles.
+User can explore or login via GitHub to create articles.
 
 👉 [Watch DEMO](https://nextjs-15-sanity-blog-gules.vercel.app/)
 
